@@ -17,9 +17,6 @@ export default function Calculator() {
   function calculate(previousValue, value) {
     previousValue = parseFloat(previousValue);
     value = parseFloat(value);
-    console.log(currentOperation);
-    console.log(previousValue);
-    console.log(value);
     switch (currentOperation) {
       case '+':
         if (!previousValue) previousValue = 0;
@@ -96,8 +93,6 @@ export default function Calculator() {
         if (newInput == '%') {
           onClickSignal(previous, '=', parseFloat(currentValue) / 100 + '');
         } else {
-          console.log(currentValue);
-          console.log(currentOperation);
           if (currentValue === '0') setValue('-');
           else onClickSignal(previous, newInput, currentValue);
         }
@@ -121,9 +116,6 @@ export default function Calculator() {
             currentValue[0] === '0' ||
             currentValue.substr(0, 2) === '-0'
           ) {
-            console.log(isResult);
-            console.log(currentValue);
-            console.log(currentValue.substr(0, 2));
             //And has comma
             if (currentValue.split('.').length === 1) newValue = newInput + '';
             //And doesn't have comma
