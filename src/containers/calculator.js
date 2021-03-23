@@ -134,28 +134,130 @@ export default function Calculator() {
   }
   return (
     <div id="calculator">
-      <Display value={display} />
+      <Display value={display} getButtonClick={getButtonClick} />
       <section>
-        <Button text={'√a'} type={'signal'} getButtonClick={getButtonClick} />
-        <Button text={'a²'} type={'signal'} getButtonClick={getButtonClick} />
-        <Button text={'%'} type={'signal'} getButtonClick={getButtonClick} />
-        <Button text={'÷'} type={'signal'} getButtonClick={getButtonClick} />
-        <Button text={7} type={'number'} getButtonClick={getButtonClick} />
-        <Button text={8} type={'number'} getButtonClick={getButtonClick} />
-        <Button text={9} type={'number'} getButtonClick={getButtonClick} />
-        <Button text={'x'} type={'signal'} getButtonClick={getButtonClick} />
-        <Button text={4} type={'number'} getButtonClick={getButtonClick} />
-        <Button text={5} type={'number'} getButtonClick={getButtonClick} />
-        <Button text={6} type={'number'} getButtonClick={getButtonClick} />
-        <Button text={'-'} type={'signal'} getButtonClick={getButtonClick} />
-        <Button text={1} type={'number'} getButtonClick={getButtonClick} />
-        <Button text={2} type={'number'} getButtonClick={getButtonClick} />
-        <Button text={3} type={'number'} getButtonClick={getButtonClick} />
-        <Button text={'+'} type={'signal'} getButtonClick={getButtonClick} />
-        <Button text={'C'} type={'clean'} getButtonClick={getButtonClick} />
-        <Button text={0} type={'number'} getButtonClick={getButtonClick} />
-        <Button text={'.'} type={'comma'} getButtonClick={getButtonClick} />
-        <Button text={'='} type={'signal'} getButtonClick={getButtonClick} />
+        <Button
+          text={'√a'}
+          type={'signal'}
+          getButtonClick={getButtonClick}
+          title={'Press "#" or "r" to calculate a root'}
+        />
+        <Button
+          text={'a²'}
+          type={'signal'}
+          getButtonClick={getButtonClick}
+          title={'Press "^" or "e" to calculate an exponentiation'}
+        />
+        <Button
+          text={'%'}
+          type={'signal'}
+          getButtonClick={getButtonClick}
+          title={'Press "%" or "p" to calculate a percentage'}
+        />
+        <Button
+          text={'÷'}
+          type={'signal'}
+          getButtonClick={getButtonClick}
+          title={'Press "/" or "d" to calculate a division'}
+        />
+        <Button
+          text={7}
+          type={'number'}
+          getButtonClick={getButtonClick}
+          title={'Press "7" to input the number'}
+        />
+        <Button
+          text={8}
+          type={'number'}
+          getButtonClick={getButtonClick}
+          title={'Press "8" to input the number'}
+        />
+        <Button
+          text={9}
+          type={'number'}
+          getButtonClick={getButtonClick}
+          title={'Press "9" to input the number'}
+        />
+        <Button
+          text={'x'}
+          type={'signal'}
+          getButtonClick={getButtonClick}
+          title={'Press "*" or "x" to calculate a multiplication'}
+        />
+        <Button
+          text={4}
+          type={'number'}
+          getButtonClick={getButtonClick}
+          title={'Press "4" to input the number'}
+        />
+        <Button
+          text={5}
+          type={'number'}
+          getButtonClick={getButtonClick}
+          title={'Press "5" to input the number'}
+        />
+        <Button
+          text={6}
+          type={'number'}
+          getButtonClick={getButtonClick}
+          title={'Press "6" to input the number'}
+        />
+        <Button
+          text={'-'}
+          type={'signal'}
+          getButtonClick={getButtonClick}
+          title={
+            'Press "-" or "s" to calculate a subtration or to set a negative value'
+          }
+        />
+        <Button
+          text={1}
+          type={'number'}
+          getButtonClick={getButtonClick}
+          title={'Press "1" to input the number'}
+        />
+        <Button
+          text={2}
+          type={'number'}
+          getButtonClick={getButtonClick}
+          title={'Press "2" to input the number'}
+        />
+        <Button
+          text={3}
+          type={'number'}
+          getButtonClick={getButtonClick}
+          title={'Press "3" to input the number'}
+        />
+        <Button
+          text={'+'}
+          type={'signal'}
+          getButtonClick={getButtonClick}
+          title={'Press "+" or "a" to calculate a addition'}
+        />
+        <Button
+          text={'C'}
+          type={'clean'}
+          getButtonClick={getButtonClick}
+          title={'Press Backspace, Esc, Delete or "c" to clean the display'}
+        />
+        <Button
+          text={0}
+          type={'number'}
+          getButtonClick={getButtonClick}
+          title={'Press "0" to input the number'}
+        />
+        <Button
+          text={'.'}
+          type={'comma'}
+          getButtonClick={getButtonClick}
+          title={'Press "," or "." to set a decimal dot'}
+        />
+        <Button
+          text={'='}
+          type={'signal'}
+          getButtonClick={getButtonClick}
+          title={'Press Enter, Space or "=" to get the result'}
+        />
       </section>
     </div>
   );

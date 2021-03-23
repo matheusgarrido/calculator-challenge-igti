@@ -28,7 +28,6 @@ body {
   src: url('../fonts/digital-7.ttf');
 }
 main {
-  text-align: right;
   border: 1px solid black;
   background-color: rgb(137, 149, 130);
   width: 90%;
@@ -39,10 +38,19 @@ main {
   height: 10%;
   vertical-align: middle;
 }
-main > label {
+main > input {
+  background-color: rgb(137, 149, 130);
   font-family: 'digital-7', Helvetica, Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  border: hidden;
+  font-size: 100%;
 }
-
+main > input:focus {
+  outline: none;
+  caret-color: transparent;
+}
 section {
   display: grid;
   grid-template-columns: 20fr 20fr 20fr 20fr;
