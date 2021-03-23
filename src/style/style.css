@@ -9,7 +9,7 @@ body {
   background-size: 20%;
 }
 #calculator {
-  background-color: white;
+  background-color: #fafaff;
   font-size: 4vh;
   /* height: 50fr; */
   /* max-height: 50fr; */
@@ -66,7 +66,7 @@ section > div {
   -ms-user-select: none;
   user-select: none;
   border-radius: 50%;
-  background-color: rgb(225, 221, 221);
+  background-color: #e4efff;
 }
 section > div:hover {
   cursor: pointer;
@@ -75,10 +75,10 @@ section > div:active {
   box-shadow: 5px 2px 7px black;
 }
 .signal {
-  background-color: lightseagreen;
+  background-color: #60854c;
   color: white;
 }
 .clean {
   color: white;
-  background-color: lightcoral;
+  background-color: #db993b;
 }
