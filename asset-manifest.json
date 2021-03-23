@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/calculator-challenge-igti/static/css/main.e4aa021c.chunk.css",
-    "main.js": "/calculator-challenge-igti/static/js/main.2d2e39c6.chunk.js",
-    "main.js.map": "/calculator-challenge-igti/static/js/main.2d2e39c6.chunk.js.map",
+    "main.css": "/calculator-challenge-igti/static/css/main.f0281296.chunk.css",
+    "main.js": "/calculator-challenge-igti/static/js/main.9123f5f6.chunk.js",
+    "main.js.map": "/calculator-challenge-igti/static/js/main.9123f5f6.chunk.js.map",
     "runtime-main.js": "/calculator-challenge-igti/static/js/runtime-main.344fb21e.js",
     "runtime-main.js.map": "/calculator-challenge-igti/static/js/runtime-main.344fb21e.js.map",
     "static/js/2.8d4de659.chunk.js": "/calculator-challenge-igti/static/js/2.8d4de659.chunk.js",
     "static/js/2.8d4de659.chunk.js.map": "/calculator-challenge-igti/static/js/2.8d4de659.chunk.js.map",
     "index.html": "/calculator-challenge-igti/index.html",
-    "static/css/main.e4aa021c.chunk.css.map": "/calculator-challenge-igti/static/css/main.e4aa021c.chunk.css.map",
+    "static/css/main.f0281296.chunk.css.map": "/calculator-challenge-igti/static/css/main.f0281296.chunk.css.map",
     "static/js/2.8d4de659.chunk.js.LICENSE.txt": "/calculator-challenge-igti/static/js/2.8d4de659.chunk.js.LICENSE.txt",
     "static/media/style.css": "/calculator-challenge-igti/static/media/digital-7.ae951a18.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.344fb21e.js",
     "static/js/2.8d4de659.chunk.js",
-    "static/css/main.e4aa021c.chunk.css",
-    "static/js/main.2d2e39c6.chunk.js"
+    "static/css/main.f0281296.chunk.css",
+    "static/js/main.9123f5f6.chunk.js"
   ]
 }
