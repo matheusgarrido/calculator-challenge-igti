@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  background-color: thistle;
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 15fr 70fr 15fr;
+  grid-template-columns: 18fr 64fr 18fr;
+  background-image: url('../images/bgImage.png');
+  background-size: 20%;
+}
+#calculator {
+  background-color: white;
+  font-size: 4vh;
+  /* height: 50fr; */
+  /* max-height: 50fr; */
+  margin: auto;
+  width: 40vh;
+  height: 50vh;
+  overflow: hidden;
+  border: 1px solid black;
+  padding: 3%;
+  border-radius: 5%;
+  grid-row: 2;
+  grid-column: 2;
+}
+@font-face {
+  font-family: 'digital-7';
+  src: url('../fonts/digital-7.ttf');
+}
+main {
+  text-align: right;
+  border: 1px solid black;
+  background-color: rgb(137, 149, 130);
+  width: 90%;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 0 5%;
+  height: 10%;
+  vertical-align: middle;
+}
+main > label {
+  font-family: 'digital-7', Helvetica, Arial, sans-serif;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 20fr 20fr 20fr 20fr;
+  margin: 2%;
+  justify-content: space-around;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+section > div {
+  vertical-align: middle;
+  border: 1px solid black;
+  padding: 5% 0;
+  text-align: center;
+  margin: 10% 15%;
+  box-shadow: 10px 5px 10px black;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 50%;
+  background-color: rgb(225, 221, 221);
+}
+section > div:hover {
+  cursor: pointer;
+}
+section > div:active {
+  box-shadow: 5px 2px 7px black;
+}
+.signal {
+  background-color: lightseagreen;
+  color: white;
+}
+.clean {
+  color: white;
+  background-color: lightcoral;
+}
