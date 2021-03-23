@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Display({ value, getButtonClick }) {
   return (
-    <main>
+    <main onClick={handleClickToCopy} title={'Click to copy'}>
       <input
         value={value || 0}
         autoFocus
@@ -76,5 +76,16 @@ export default function Display({ value, getButtonClick }) {
   //Always focused
   function handleFocus(event) {
     event.target.focus();
+  }
+
+  function handleClickToCopy() {
+    try {
+      const valueToCopy = document.querySelector('input');
+      valueToCopy.select();
+      document.execCommand('copy');
+      alert(`Value ${value} copied`);
+    } catch (err) {
+      console.log(err);
+    }
   }
 }

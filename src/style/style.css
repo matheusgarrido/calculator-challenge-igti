@@ -51,6 +51,13 @@ main > input:focus {
   outline: none;
   caret-color: transparent;
 }
+main:hover,
+main > input:hover {
+  cursor: pointer;
+}
+main > input::selection {
+  background-color: rgba(0, 0, 0, 0);
+}
 section {
   display: grid;
   grid-template-columns: 20fr 20fr 20fr 20fr;
